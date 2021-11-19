@@ -21,6 +21,8 @@ AOS Enhanced Color Anomaly Detection (from research paper)
 
 ## Literature Overview
 
+- nice overview: https://paperswithcode.com/task/unsupervised-anomaly-detection
+
 
 
 

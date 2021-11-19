@@ -25,3 +25,5 @@ and add to the data folder.
 
 - example on VAE in pytorch: https://medium.com/dataseries/variational-autoencoder-with-pytorch-2d359cbf027b
   - https://avandekleut.github.io/vae/
+
+- example on VAE in tensoreflow: https://docs.seldon.io/projects/alibi-detect/en/latest/examples/od_vae_cifar10.html
