@@ -20,5 +20,8 @@ and add to the data folder.
 
 ## TODOs
 
-Problem: Training on large dataset. We could try https://towardsdatascience.com/an-informative-colab-guide-to-load-image-datasets-from-github-kaggle-and-local-machine-75cae89ffa1e
+- Training on large dataset. We could try https://towardsdatascience.com/an-informative-colab-guide-to-load-image-datasets-from-github-kaggle-and-local-machine-75cae89ffa1e
 
+
+- example on VAE in pytorch: https://medium.com/dataseries/variational-autoencoder-with-pytorch-2d359cbf027b
+  - https://avandekleut.github.io/vae/

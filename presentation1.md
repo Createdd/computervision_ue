@@ -4,13 +4,14 @@
 
 
 
-How to incorporate temporal images
+- How to incorporate temporal images
 Simply warping them again sufficient?
 
-What type of algorithm to use for anomaly detection
+- What type of algorithm to use for anomaly detection
 Pytorch from scratch or using pre-trained version from official JKU implementation (using other images)
+AOS Enhanced Color Anomaly Detection (from research paper)
 
-Object detection what type of anomaly is it?
+- Object detection what type of anomaly is it?
 
 
 
@@ -45,16 +46,27 @@ We show that automated person detection under occlusion conditions can be signif
 While detecting and tracking moving targets through foliage is difficult (and for many cases even impossible) in regular aerial images or videos, it becomes practically feasible with image integration – which is the core principle of Airborne Optical Sectioning. We have already shown that classification significantly benefits from image integration (Schedl et al. (2020b)). In this work we demonstrate that the same holds true for color anomaly detection.
 
 
+---
+
+- Normality-Calibrated Autoencoder for Unsupervised Anomaly Detection on Data Contamination -https://arxiv.org/abs/2110.14825v1
+  - In this paper, we propose Normality-Calibrated Autoencoder (NCAE), which can boost anomaly detection performance on the contaminated datasets without any prior information or explicit abnormal samples in the training phase. The NCAE adversarially generates high confident normal samples from a latent space having low entropy and leverages them to predict abnormal samples in a training dataset
+
+- A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges - https://arxiv.org/pdf/2110.14051.pdf
+  - To date, several research domains tackle the problem of detecting unfamiliar samples, including anomaly detection, novelty detection, one-class learning, open set recognition, and out-of-distribution detection. Despite having similar and shared concepts, out-of-distribution, open-set, and anomaly detection have been investigated independently. This survey aims to provide a cross-domain and comprehensive review of numerous eminent works in respective areas while identifying their commonalities.
+  - Outlier or novelty detection? Our challenge illustrates a great example for anomaly detection, as our data has mixed outliers within. (training data = polluted with outliers)
+  - To find a sample that deviates from the trend, adopting an appropriate distance metric is necessary. For instance, deviation could be computed in a raw pixel-level input or in a semantic space that is learned through a deep neural network. Some samples might have a low deviation from others in the raw pixel space but exhibit large deviations in representation space. Therefore, choosing the right distance measure for a hypothetical space is another challenge. Finally, the last challenge is choosing the threshold to determine whether the deviation from normal samples is significant.
 
 
 
-Rakesh John Amala Arokia Nathan, Indrajit Kurmi, David C. Schedl and Oliver Bimber, Through-Foliage Tracking with Airborne Optical Sectioning, Remote Sensing of Environment (under Review), (2021), https://arxiv.org/abs/2111.06959
- Indrajit Kurmi, David C. Schedl, and Oliver Bimber, Combined People Classification with Airborne Optical Sectioning, Nature Scientific Reports (under review), (2021), https://arxiv.org/abs/2106.10077
+
+- Rakesh John Amala Arokia Nathan, Indrajit Kurmi, David C. Schedl and Oliver Bimber, Through-Foliage Tracking with Airborne Optical Sectioning, Remote Sensing of Environment (under Review), (2021), https://arxiv.org/abs/2111.06959
+  - Second, we show that color anomaly detection (e.g., Reed and Yu (1990); Ehret, Davy, Morel and Delbracio (2019)) benefits significantly from AOS integral images when compared to conventional single images (on average 97% vs. 42% in precision). Color anomaly detection is often used for automatized aerial image analysis in search and rescue applications (e.g., Morse, Thornton and Goodrich (2012); Agcayazi, Cawi, Jurgenson, Ghassemi and Cook (2016); Weldon and Hupy (2020))
+- Indrajit Kurmi, David C. Schedl, and Oliver Bimber, Combined People Classification with Airborne Optical Sectioning, Nature Scientific Reports (under review), (2021), https://arxiv.org/abs/2106.10077
 David C. Schedl, Indrajit Kurmi, and Oliver Bimber, Autonomous Drones for Search and Rescue in Forests, Science Robotics 6(55), eabg1188, https://doi.org/10.1126/scirobotics.abg1188, (2021)
-David C. Schedl, Indrajit Kurmi, and Oliver Bimber, Search and rescue with airborne optical sectioning, Nature Machine Intelligence 2, 783-790, https://doi.org/10.1038/s42256-020-00261-3 (2020)
-Indrajit Kurmi, David C. Schedl, and Oliver Bimber, Pose Error Reduction for Focus Enhancement in Thermal Synthetic Aperture Visualization, IEEE Geoscience and Remote Sensing Letters, DOI: https://doi.org/10.1109/LGRS.2021.3051718 (2021).
-Indrajit Kurmi, David C. Schedl, and Oliver Bimber, Fast automatic visibility optimization for thermal synthetic aperture visualization, IEEE Geosci. Remote Sens. Lett. https://doi.org/10.1109/LGRS.2020.2987471 (2020).
-David C. Schedl, Indrajit Kurmi, and Oliver Bimber, Airborne Optical Sectioning for Nesting Observation. Sci Rep 10, 7254, https://doi.org/10.1038/s41598-020-63317-9 (2020).
+- David C. Schedl, Indrajit Kurmi, and Oliver Bimber, Search and rescue with airborne optical sectioning, Nature Machine Intelligence 2, 783-790, https://doi.org/10.1038/s42256-020-00261-3 (2020)
+- Indrajit Kurmi, David C. Schedl, and Oliver Bimber, Pose Error Reduction for Focus Enhancement in Thermal Synthetic Aperture Visualization, IEEE Geoscience and Remote Sensing Letters, DOI: https://doi.org/10.1109/LGRS.2021.3051718 (2021).
+- Indrajit Kurmi, David C. Schedl, and Oliver Bimber, Fast automatic visibility optimization for thermal synthetic aperture visualization, IEEE Geosci. Remote Sens. Lett. https://doi.org/10.1109/LGRS.2020.2987471 (2020).
+- David C. Schedl, Indrajit Kurmi, and Oliver Bimber, Airborne Optical Sectioning for Nesting Observation. Sci Rep 10, 7254, https://doi.org/10.1038/s41598-020-63317-9 (2020).
 Indrajit Kurmi, David C. Schedl, and Oliver Bimber, Thermal airborne optical sectioning. Remote Sensing. 11, 1668, https://doi.org/10.3390/rs11141668, (2019).
 
 
