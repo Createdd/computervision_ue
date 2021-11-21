@@ -58,6 +58,11 @@ While detecting and tracking moving targets through foliage is difficult (and fo
   - Outlier or novelty detection? Our challenge illustrates a great example for anomaly detection, as our data has mixed outliers within. (training data = polluted with outliers)
   - To find a sample that deviates from the trend, adopting an appropriate distance metric is necessary. For instance, deviation could be computed in a raw pixel-level input or in a semantic space that is learned through a deep neural network. Some samples might have a low deviation from others in the raw pixel space but exhibit large deviations in representation space. Therefore, choosing the right distance measure for a hypothetical space is another challenge. Finally, the last challenge is choosing the threshold to determine whether the deviation from normal samples is significant.
 
+- UAV-YOLO: Small Object Detection on Unmanned Aerial Vehicle Perspective - https://www.researchgate.net/publication/340708049_UAV-YOLO_Small_Object_Detection_on_Unmanned_Aerial_Vehicle_Perspective
+  - Object detection, as a fundamental task in computer vision, has been developed enormously, but is still challenging work, especially for Unmanned Aerial Vehicle (UAV) perspective due to small scale of the target. 
+  - In this study, the authors develop a special detection method for small objects in UAV perspective. Based on YOLOv3, the Resblock in darknet is first optimized by concatenating two ResNet units that have the same width and height. Then, the entire darknet structure is improved by increasing convolution operation at an early layer to enrich spatial information. Both these two optimizations can enlarge the receptive filed. 
+  - Furthermore, UAV-viewed dataset is collected to UAV perspective or small object detection. An optimized training method is also proposed based on collected UAV-viewed dataset. The experimental results on public dataset and our collected UAV-viewed dataset show distinct performance improvement on small object detection with keeping the same level performance on normal dataset, which means our proposed method adapts to different kinds of conditions.
+
 
 
 
