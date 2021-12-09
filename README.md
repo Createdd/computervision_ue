@@ -18,6 +18,11 @@ Download data from here: https://drive.google.com/file/d/1R9DHYRgnhs0x9oMaWi-HX2
 and add to the data folder.
 (It is not uploaded to Github as it is too big)
 
+## Anomaly Detection Algorithm 
+
+First implementations on Google Colab: https://colab.research.google.com/drive/1UXrw17Lsbt-hsOIerbMG4JuFzpn73DWK?usp=sharing
+
+
 ## TODOs
 
 - Training on large dataset. We could try https://towardsdatascience.com/an-informative-colab-guide-to-load-image-datasets-from-github-kaggle-and-local-machine-75cae89ffa1e
