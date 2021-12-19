@@ -1,0 +1,21 @@
+
+
+- good intro
+  - https://medium.com/analytics-vidhya/unsupervised-learning-and-convolutional-autoencoder-for-image-anomaly-detection-b783706eb59e
+- very simple keras conv autoencoder exampl
+  - https://keras.io/examples/vision/autoencoder/
+- good example autoencoder keras on fashiondataset
+  - https://github.com/SubhamIO/AnomalyDetection---Deep-AUTOENCODERS/blob/main/AnamolydetectionAE.ipynb
+  - https://medium.com/analytics-vidhya/anomaly-detection-in-images-autoencoders-b780abf88f51
+  - most of this approach was used for you example so far
+  - it detects the loss for ssim which seems very promising. needs to be elaborated with more training epochs
+- similar code but other article? https://medium.com/analytics-vidhya/image-anomaly-detection-using-autoencoders-ae937c7fd2d1
+- for details on architecture
+  - section on conv autoencoder
+  - https://blog.keras.io/building-autoencoders-in-keras.html
+- this might be interesting for fine-tuning afterwards?
+  - https://benjoe.medium.com/anomaly-detection-using-pytorch-autoencoder-and-mnist-31c5c2186329
+- if we want to switch from keras to pytorch at one point
+  - https://afagarap.github.io/2020/01/26/implementing-autoencoder-in-pytorch.html
+  - https://www.geeksforgeeks.org/implementing-an-autoencoder-in-pytorch/
+- 
