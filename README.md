@@ -3,8 +3,11 @@
 # Introduction
 
 This is part of the exercise class "UE Computer Vision, Oliver Bimber / Indrajit Kurmi, 2021W" at the JKU Austria.
-The responsible instituate at JKU is https://www.jku.at/en/institute-of-computer-graphics/ 
-Whereas this a specific research project for them https://www.jku.at/en/institute-of-computer-graphics/research/projects/2021 
+The responsible institute at JKU is https://www.jku.at/en/institute-of-computer-graphics/ 
+
+Whereas they have a specific research project for [Search and rescue with airborne optical sectioning](https://www.nature.com/articles/s42256-020-00261-3.epdf?sharing_token=CkVF30c-ohDFg7Bfz7vbXNRgN0jAjWel9jnR3ZoTv0Njw2M16sXA0c1i0-K0I8hyWAyPHw0VoEqSzrkBwYYyW6fhTSE6UR1hLVXodIJxrUXLGCuefrcgODgq7zmQeEDTqcs5bDAPpwteMKEXPcztPtUexI1JTEkxXmS4opWo-LA%3D)
+
+For further projects see: https://www.jku.at/en/institute-of-computer-graphics/research/projects/2021 
 
 In this lab project we had to implement an unsupervised person localization algorithm.
 
@@ -36,7 +39,7 @@ In this lab project we had to implement an unsupervised person localization algo
 - Advantage: 
   - can distinguish people from other objects by detecting movement
 - Disadvantages:
-  - fixed size of labels  to be improved
+  - fixed size of labels; needs to be improved
   - bias towards detecting people wearing blue or red – problems finding people with green clothing
   - cannot detect people that are not moving or moving too little
 
@@ -98,8 +101,14 @@ Indication of finding the anomalies as desired.
 
 Finding the proper threshold for SSIM differences
 
+![img.png](static/locating_human.png)
 
-As the project was implemented during a semester at university, in the end we implemented the whole pipeline to fit the corresponding grading criteria
+---
+
+
+The project was implemented over the course of a semester at university.
+
+In the end we implemented the whole pipeline to fit the corresponding grading criteria.
 
 
 ---
@@ -130,3 +139,5 @@ To make the google colab notebook work you need to upload the data on your googl
 ## TODOs
 
 https://github.com/Createdd/computervision_ue/projects/2
+
+.com/index.php/2019/12/26/how-to-visualize-the-encoded-state-of-an-autoencoder-with-keras/
