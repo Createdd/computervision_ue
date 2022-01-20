@@ -1,6 +1,19 @@
 # UNSUPERVISED PERSON LOCALIZATION IN WISAR
 
-# Introduction
+# Table of contents
+
+  - [Introduction](#introduction)
+  - [Challenge](#challenge)
+    - [Data extraction](#data-extraction)
+  - [Methods and solution](#methods-and-solution)
+    - [0. Image pre-processing](#0-image-pre-processing)
+    - [1. Color channels approach](#1-color-channels-approach)
+    - [2. Autoencoder approach](#2-autoencoder-approach)
+      - [Initial idea](#initial-idea)
+      - [Model Architecture](#model-architecture)
+      - [Implementation and findings](#implementation-and-findings)
+
+## Introduction
 
 This is part of the exercise class "UE Computer Vision, Oliver Bimber / Indrajit Kurmi, 2021W" at the JKU Austria. The
 responsible institute at JKU is https://www.jku.at/en/institute-of-computer-graphics/
@@ -10,7 +23,7 @@ for [Search and rescue with airborne optical sectioning](https://www.nature.com/
 
 For further projects see: https://www.jku.at/en/institute-of-computer-graphics/research/projects/2021
 
-In this lab project we had to implement an unsupervised person localization algorithm.
+In this lab project, we had to implement an unsupervised person localization algorithm.
 
 ## Challenge
 
@@ -69,12 +82,12 @@ Going through various research papers on anomaly detection, we decided to try ou
 
 ![img_4.png](static/model_architecture.png)
 
-- Base is Convolutional autoencoder for image denoising from official keras docs
+- Base is a Convolutional autoencoder for image denoising from official Keras docs
 - Adapted loss for Structural Similarity Index (SSIM)
 - Decided for that because
-- Relatively straight forward to tune
-- Simple architecture
-- Sufficient for our image detection problem
+  - Relatively straight forward to tune
+  - Simple architecture
+  - Sufficient for our image detection problem
 
 #### Implementation and findings
 
