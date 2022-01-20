@@ -1,4 +1,4 @@
-# UNSUPERVISED PERSON LOCALIZATION IN WISAR
+# Unsupervised person localization in wilderness search and rescue
 
 # Table of contents
 
@@ -15,13 +15,11 @@
 
 ## Introduction
 
-This is part of the exercise class "UE Computer Vision, Oliver Bimber / Indrajit Kurmi, 2021W" at the JKU Austria. The
-responsible institute at JKU is https://www.jku.at/en/institute-of-computer-graphics/
-
-Whereas they have a specific research project
+This is part of the exercise class "UE Computer Vision, Oliver Bimber / Indrajit Kurmi, 2021W" at the JKU Austria.
+- The responsible institute at JKU is https://www.jku.at/en/institute-of-computer-graphics/
+- Whereas they have a specific research project
 for [Search and rescue with airborne optical sectioning](https://www.nature.com/articles/s42256-020-00261-3.epdf?sharing_token=CkVF30c-ohDFg7Bfz7vbXNRgN0jAjWel9jnR3ZoTv0Njw2M16sXA0c1i0-K0I8hyWAyPHw0VoEqSzrkBwYYyW6fhTSE6UR1hLVXodIJxrUXLGCuefrcgODgq7zmQeEDTqcs5bDAPpwteMKEXPcztPtUexI1JTEkxXmS4opWo-LA%3D)
-
-For further projects see: https://www.jku.at/en/institute-of-computer-graphics/research/projects/2021
+- For further projects see: https://www.jku.at/en/institute-of-computer-graphics/research/projects/2021
 
 In this lab project, we had to implement an unsupervised person localization algorithm.
 
