@@ -41,16 +41,25 @@ In this lab project, we had to implement an unsupervised person localization alg
 
 ### 1. Color channels approach
 
+#### Method
 ![img_2.png](static/colorchannels1.png)
 
 ![img_3.png](static/colorchannels2.png)
 
+#### Advantages and disadvantages
 - Advantage:
     - can distinguish people from other objects by detecting movement
 - Disadvantages:
     - fixed size of labels; needs to be improved
     - bias towards detecting people wearing blue or red – problems finding people with green clothing
     - cannot detect people that are not moving or moving too little
+
+#### Code usage
+- To get detections for a dataset and save them as json files, run detect.py from the console and specify the dataset name and data path, e.g.:
+    python detect.py --set validation --dataset_root' ../data
+- To evaluate a set of detections run evaluate.py from the console and specify the path to the json file, the dataset name and data path, e.g.:
+    python evaluate.py ../val.json --set validation --dataset_root ../data
+- To visualize any intermediate steps of the image processing and visually compare detections and targets, use visualization.ipynb and follow the instructions there
 
 ### 2. Autoencoder approach
 
