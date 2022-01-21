@@ -46,11 +46,25 @@ In this lab project, we had to implement an unsupervised person localization alg
 
 ![img_3.png](static/colorchannels2.png)
 
+![img.png](static/pipeline.png)
+
+![img_1.png](static/results.png)
+
+- OpenCV functions cv2.findContours() and cv2.boundingRect()
+- Pad by 2 pixels in each direction
+- Merge overlapping bounding boxes
+- Pad by 7 pixels in x and 4 pixels in y
+- Choose the biggest bounding box of blue and red image, respectively
+- Remove if x<24 or y<18
+- If no detections -> lower threshold for binary image and start from 1
+- Merge detections overlapping between the two images
+- Pad detections to a minimum size of 38x30 px
+
+
 #### Advantages and disadvantages
 - Advantage:
     - can distinguish people from other objects by detecting movement
 - Disadvantages:
-    - fixed size of labels; needs to be improved
     - bias towards detecting people wearing blue or red – problems finding people with green clothing
     - cannot detect people that are not moving or moving too little
     
